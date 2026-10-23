@@ -1,0 +1,406 @@
+{
+  "joueur": "joueur de test (pseudonymisé)",
+  "partie": 4,
+  "tour_predit": 55,
+  "intentions": {
+    "mouvement": {
+      "AVANCER_GAUCHE": 0.02,
+      "AVANCER_CENTRE": 0.32,
+      "AVANCER_DROITE": 0.03,
+      "ATTAQUER": 0.59,
+      "DEFENDRE": 0.04
+    },
+    "gestion": {
+      "RIEN": 0.03,
+      "ENTRAINER": 0.96,
+      "CONSTRUIRE": 0.02
+    }
+  },
+  "Tour_55_predit": {
+    "unites": {
+      "J_U3": {
+        "Nom": "Ouvrier",
+        "position": [
+          5,
+          1
+        ],
+        "Movement": [
+          5,
+          1
+        ],
+        "proba_Movement": 1.0,
+        "autres_cases": [
+          {
+            "case": [
+              6,
+              2
+            ],
+            "proba": 0.0
+          },
+          {
+            "case": [
+              6,
+              1
+            ],
+            "proba": 0.0
+          }
+        ],
+        "Attaque": null,
+        "proba_Attaque": 1.0,
+        "construct": null,
+        "REEL": {
+          "Movement": [
+            5,
+            1
+          ],
+          "Attaque": null,
+          "construct": null
+        }
+      },
+      "J_U33": {
+        "Nom": "Archer",
+        "position": [
+          6,
+          10
+        ],
+        "Movement": [
+          6,
+          10
+        ],
+        "proba_Movement": 0.85,
+        "autres_cases": [
+          {
+            "case": [
+              7,
+              10
+            ],
+            "proba": 0.05
+          },
+          {
+            "case": [
+              5,
+              10
+            ],
+            "proba": 0.04
+          }
+        ],
+        "Attaque": "IA_U39",
+        "proba_Attaque": 0.59,
+        "construct": null,
+        "REEL": {
+          "Movement": [
+            6,
+            10
+          ],
+          "Attaque": "IA_U39",
+          "construct": null
+        }
+      },
+      "J_U35": {
+        "Nom": "Piquier",
+        "position": [
+          6,
+          9
+        ],
+        "Movement": [
+          6,
+          10
+        ],
+        "proba_Movement": 0.46,
+        "autres_cases": [
+          {
+            "case": [
+              6,
+              9
+            ],
+            "proba": 0.4
+          },
+          {
+            "case": [
+              6,
+              8
+            ],
+            "proba": 0.04
+          }
+        ],
+        "Attaque": "IA_U39",
+        "proba_Attaque": 0.43,
+        "construct": null,
+        "REEL": {
+          "Movement": [
+            6,
+            9
+          ],
+          "Attaque": "IA_U39",
+          "construct": null
+        }
+      },
+      "J_U37": {
+        "Nom": "Archer",
+        "position": [
+          6,
+          6
+        ],
+        "Movement": [
+          7,
+          7
+        ],
+        "proba_Movement": 0.49,
+        "autres_cases": [
+          {
+            "case": [
+              6,
+              7
+            ],
+            "proba": 0.41
+          },
+          {
+            "case": [
+              5,
+              6
+            ],
+            "proba": 0.05
+          }
+        ],
+        "Attaque": null,
+        "proba_Attaque": 1.0,
+        "construct": null,
+        "REEL": {
+          "Movement": [
+            7,
+            7
+          ],
+          "Attaque": null,
+          "construct": null
+        }
+      },
+      "J_U38": {
+        "Nom": "Piquier",
+        "position": [
+          5,
+          2
+        ],
+        "Movement": [
+          6,
+          3
+        ],
+        "proba_Movement": 0.58,
+        "autres_cases": [
+          {
+            "case": [
+              5,
+              3
+            ],
+            "proba": 0.29
+          },
+          {
+            "case": [
+              6,
+              2
+            ],
+            "proba": 0.06
+          }
+        ],
+        "Attaque": null,
+        "proba_Attaque": 1.0,
+        "construct": null,
+        "REEL": {
+          "Movement": [
+            6,
+            3
+          ],
+          "Attaque": null,
+          "construct": null
+        }
+      }
+    },
+    "batiments": {
+      "J_B1": {
+        "Nom": "QG",
+        "entraine": null,
+        "proba_entraine": 1.0,
+        "REEL": {
+          "entraine": null
+        }
+      },
+      "J_B2": {
+        "Nom": "Caserne",
+        "entraine": "Archer",
+        "proba_entraine": 0.4,
+        "REEL": {
+          "entraine": "Piquier"
+        }
+      }
+    }
+  },
+  "carte_de_presence": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.01,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03,
+      0.03,
+      0.06,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.29,
+      0.58,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.0,
+      0.02,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.41,
+      0.49,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04,
+      0.01,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02,
+      0.45,
+      0.02,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04,
+      1.31,
+      0.08,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ]
+}

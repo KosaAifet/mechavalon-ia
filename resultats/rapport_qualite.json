@@ -1,0 +1,16 @@
+{
+  "parties_lues": 1500,
+  "tours_manquants_reperes": 274,
+  "tours_valides": 96097,
+  "pv_aberrants_corriges": 980,
+  "deplacements_impossibles_corriges": 614,
+  "movement_manquant_complete": 1010,
+  "unites_a_predire": 329510,
+  "batiments_formateurs_a_predire": 188646,
+  "deplacements_hors_masque": 106,
+  "attaques_hors_candidats": 0,
+  "lignes_sans_cible_tour_suivant": 1771,
+  "joueurs_pseudonymises": 150,
+  "concordance_regle_mouvement": 0.9206,
+  "concordance_regle_gestion": 1.0
+}

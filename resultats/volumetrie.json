@@ -1,0 +1,40 @@
+{
+  "simulation": {
+    "joueurs": 150,
+    "parties": 1500,
+    "tours": 96097,
+    "volume_brut_Mo": 170.1,
+    "Ko_par_tour": 1.77,
+    "Ko_par_partie": 113.4,
+    "tours_moyens_par_partie": 64.1
+  },
+  "schema_source_1_document_par_joueur": {
+    "Ko_moyen_par_joueur_10_parties": 1134,
+    "Ko_max_par_joueur_10_parties": 1991,
+    "parties_avant_limite_16_Mo": 141,
+    "remarque": "Le document grossit à chaque partie : limite MongoDB de 16 Mo atteinte pour les joueurs réguliers."
+  },
+  "hypothese_projection": "20 parties par joueur et par mois",
+  "projection": {
+    "1000_joueurs": {
+      "volume_mensuel_Go": 2.27,
+      "volume_annuel_Go": 27.2,
+      "tours_par_mois_millions": 1.3
+    },
+    "10000_joueurs": {
+      "volume_mensuel_Go": 22.67,
+      "volume_annuel_Go": 272.1,
+      "tours_par_mois_millions": 12.8
+    },
+    "100000_joueurs": {
+      "volume_mensuel_Go": 226.73,
+      "volume_annuel_Go": 2720.8,
+      "tours_par_mois_millions": 128.1
+    }
+  },
+  "velocite": {
+    "ecritures_par_partie": 64.1,
+    "ecritures_par_seconde_1000_joueurs_simultanes_1_tour_30s": 33.3,
+    "reentrainement": "après chaque partie (incrémental) + complet chaque nuit"
+  }
+}
